@@ -1,0 +1,190 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+body{
+	font-size: 20px;
+	position: relative;
+	box-sizing: border-box;
+}
+.viewport{
+	height: 100vh;
+	position: relative;
+}
+.footer-abs{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.section-1{
+	margin-bottom: 40px;
+	padding: 60px 0;
+}
+.social-nav__item > a> img{
+	height: 60px;
+	width: 60px;
+	display: inline-block;	
+}
+.social-nav{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+}
+.social-nav__item{
+	display: inline-block;
+}
+.footer__text{
+	padding-top: 20px;
+	display: inline-block;
+}
+.checker-1> .span-2,
+.checker-2> .span-2,
+.checker-3> .span-2,
+.checker-4> .span-2,
+.checker-5> .span-2{
+	display: none;
+}
+.checker-1> .span-1,
+.checker-2> .span-1,
+.checker-3> .span-1,
+.checker-4> .span-1,
+.checker-5> .span-1,
+.checker-1> .span-2,
+.checker-2> .span-2,
+.checker-3> .span-2,
+.checker-4> .span-2,
+.checker-5> .span-2, 
+.numbers {
+	color: orange;
+	font-weight: bold;
+}
+.checker-1> .span-1:hover,
+.checker-2> .span-1:hover,
+.checker-3> .span-1:hover,
+.checker-4> .span-1:hover,
+.checker-5> .span-1:hover,
+.checker-1> .span-2:hover,
+.checker-2> .span-2:hover,
+.checker-3> .span-2:hover,
+.checker-4> .span-2:hover,
+.checker-5> .span-2:hover{
+	border-bottom: 2px solid orange;
+}
+.issue__text-hidden{
+	display: none;
+}
+
+/* checkers */
+/* 1 */
+#checker-1{
+	display: none;
+}
+#checker-1:checked ~ .checker-1 .span-2{
+	display: inline-block;
+} 
+#checker-1:checked ~ .checker-1 .span-1{
+	display: none;
+}
+#checker-1:checked ~ .issue__text-hidden{
+	display: inline-block;
+}
+/* 2 */
+#checker-2{
+	display: none;
+}
+#checker-2:checked ~ .checker-2 .span-2{
+	display: inline-block;
+} 
+#checker-2:checked ~ .checker-2 .span-1{
+	display: none;
+}
+#checker-2:checked ~ .issue__text-hidden{
+	display: inline-block;
+}
+/* 3 */
+#checker-3{
+	display: none;
+}
+#checker-3:checked ~ .checker-3 .span-2{
+	display: inline-block;
+} 
+#checker-3:checked ~ .checker-3 .span-1{
+	display: none;
+}
+#checker-3:checked ~ .issue__text-hidden{
+	display: inline-block;
+}
+/* 4 */
+#checker-4{
+	display: none;
+}
+#checker-4:checked ~ .checker-4 .span-2{
+	display: inline-block;
+} 
+#checker-4:checked ~ .checker-4 .span-1{
+	display: none;
+}
+#checker-4:checked ~ .issue__text-hidden{
+	display: inline-block;
+}
+/* 5 */
+#checker-5{
+	display: none;
+}
+#checker-5:checked ~ .checker-5 .span-2{
+	display: inline-block;
+} 
+#checker-5:checked ~ .checker-5 .span-1{
+	display: none;
+}
+#checker-5:checked ~ .issue__text-hidden{
+	display: inline-block;
+}
+
+/* checkers */
+.section-3{
+	padding: 80px 0 50px;
+}
+.section-2{
+	margin-bottom: 50px;
+}
+/* team page */
+.main-team{
+	padding-bottom: 60px;
+}
+.card-body{
+	margin: 0.2em 0;
+}
+.card-title{
+	font-size: 22px;
+	line-height: 20px;
+	margin: 0.5em 0;
+	padding: 0.5em 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	color: orange;
+}
+.team-jambo{
+	padding: 1em 0 2em;
+	margin-bottom: 2em;
+}
+.link-link{
+	color: orange;
+	font-weight: bold;
+	text-decoration: none;
+}
+.link-link:hover{
+	border-bottom: 2px solid orange;
+	text-decoration: none;
+	color: orange;
+}
+.border-issue{
+	border-bottom: 2px solid orange;
+}
+.margin-top-issue{
+	margin-top: 48px;
+}
