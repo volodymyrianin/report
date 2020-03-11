@@ -48,7 +48,8 @@ label{
 .checker-2> .span-2,
 .checker-3> .span-2,
 .checker-4> .span-2,
-.checker-5> .span-2{
+.checker-5> .span-2,
+.checker-6> .span-2{
 	display: none;
 }
 .checker-1> .span-1,
@@ -56,25 +57,43 @@ label{
 .checker-3> .span-1,
 .checker-4> .span-1,
 .checker-5> .span-1,
+.checker-6> .span-1,
 .checker-1> .span-2,
 .checker-2> .span-2,
 .checker-3> .span-2,
 .checker-4> .span-2,
-.checker-5> .span-2, 
+.checker-5> .span-2,
+.checker-6> .span-2, 
 .numbers {
 	color: orange;
 	font-weight: bold;
+}
+.checker-1> .span-1,
+.checker-2> .span-1,
+.checker-3> .span-1,
+.checker-4> .span-1,
+.checker-5> .span-1,
+.checker-6> .span-1,
+.checker-1> .span-2,
+.checker-2> .span-2,
+.checker-3> .span-2,
+.checker-4> .span-2,
+.checker-5> .span-2,
+.checker-6> .span-2{
+	border-bottom: 2px solid transparent;
 }
 .checker-1> .span-1:hover,
 .checker-2> .span-1:hover,
 .checker-3> .span-1:hover,
 .checker-4> .span-1:hover,
 .checker-5> .span-1:hover,
+.checker-6> .span-1:hover,
 .checker-1> .span-2:hover,
 .checker-2> .span-2:hover,
 .checker-3> .span-2:hover,
 .checker-4> .span-2:hover,
-.checker-5> .span-2:hover{
+.checker-5> .span-2:hover,
+.checker-6> .span-2:hover{
 	border-bottom: 2px solid orange;
 }
 .issue__text-hidden{
@@ -150,7 +169,19 @@ label{
 #checker-5:checked ~ .issue__text-hidden{
 	display: inline-block;
 }
-
+/* 6 */ 
+#checker-6{
+	display: none;
+}
+#checker-6:checked ~ .checker-6 .span-2{
+	display: inline-block;
+} 
+#checker-6:checked ~ .checker-6 .span-1{
+	display: none;
+}
+#checker-6:checked ~ .issue__text-hidden{
+	display: inline-block;
+}
 /* checkers */
 .section-3{
 	padding: 80px 0 50px;
@@ -193,4 +224,7 @@ label{
 }
 .margin-top-issue{
 	margin-top: 48px;
+}
+.issue__list > li{
+	margin-bottom: 0.4em;
 }
