@@ -11,6 +11,9 @@ body{
 	position: relative;
 	box-sizing: border-box;
 }
+label{
+	display: block;
+}
 .viewport{
 	height: 100vh;
 	position: relative;
@@ -103,6 +106,9 @@ body{
 	display: none;
 }
 #checker-2:checked ~ .issue__text-hidden{
+	display: inline-block;
+}
+#checker-2:checked ~ .issue__text-hidden .issue__text-hidden{
 	display: inline-block;
 }
 /* 3 */
