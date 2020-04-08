@@ -228,3 +228,6 @@ label{
 .issue__list > li{
 	margin-bottom: 0.4em;
 }
+.span-span{
+	font-weight: bold;
+}
